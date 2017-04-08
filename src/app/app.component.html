@@ -1,3 +1,37 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <div class="row">&nbsp;</div>
+  <div class="row">
+    <label>User: </label>
+    <input type="text" [(ngModel)]="user">
+  </div>
+  <div *ngFor="let month of months">
+    <div class="row text-center">
+      <div class="col-sm-12">
+        <h2>
+          {{month}}
+        </h2>
+      </div>
+    </div>
+    <div class="row">
+      <table class="table table-bordered text-center">
+        <thead>
+          <tr>
+            <th class="text-center">Monday</th>
+            <th class="text-center">Tuesday</th>
+            <th class="text-center">Wednesday</th>
+            <th class="text-center">Thursday</th>
+            <th class="text-center">Friday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let rowNum of [0,1,2,3,4]">
+            <td *ngFor="let num of [1,2,3,4,5]">
+              <span class="month-day">{{ num + (rowNum * 5) + (2*rowNum) }}</span>
+              0
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
