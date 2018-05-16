@@ -1,6 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+<<<<<<< HEAD
     "outDir": "../out-tsc/app",
     "module": "commonjs",
     "target": "es5",
@@ -11,3 +12,14 @@
     ]
   }
 }
+=======
+    "outDir": "../out-tsc/e2e",
+    "module": "commonjs",
+    "target": "es5",
+    "types":[
+      "jasmine",
+      "node"
+    ]
+  }
+}
+>>>>>>> 3136ed6838b3d5100829a59b12fce5f00593cbef

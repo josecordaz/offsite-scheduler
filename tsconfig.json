@@ -1,8 +1,13 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+<<<<<<< HEAD
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+=======
+    "outDir": "./dist/out-tsc",
+    "baseUrl": "src",
+>>>>>>> 3136ed6838b3d5100829a59b12fce5f00593cbef
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -13,7 +18,11 @@
       "node_modules/@types"
     ],
     "lib": [
+<<<<<<< HEAD
       "es2017",
+=======
+      "es2016",
+>>>>>>> 3136ed6838b3d5100829a59b12fce5f00593cbef
       "dom"
     ]
   }

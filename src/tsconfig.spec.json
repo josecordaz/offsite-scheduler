@@ -3,14 +3,23 @@
   "compilerOptions": {
     "outDir": "../out-tsc/spec",
     "module": "commonjs",
+<<<<<<< HEAD
+=======
+    "target": "es5",
+    "baseUrl": "",
+>>>>>>> 3136ed6838b3d5100829a59b12fce5f00593cbef
     "types": [
       "jasmine",
       "node"
     ]
   },
   "files": [
+<<<<<<< HEAD
     "test.ts",
     "polyfills.ts"
+=======
+    "test.ts"
+>>>>>>> 3136ed6838b3d5100829a59b12fce5f00593cbef
   ],
   "include": [
     "**/*.spec.ts",
